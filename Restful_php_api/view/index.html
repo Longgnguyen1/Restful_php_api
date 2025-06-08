@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Thi trac nghiem</title>
+    <style type="text/css">
+            .hienthicautraloi{
+                display: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="question" id="question">
+        <h2 id="title"></h2>
+            <ul>
+                <li>
+                    <input type="radio" name="cautraloi" class="cautraloi" id="a">
+                    <label id="a_cautraloi" for="a"></label>
+                </li>
+                <li>
+                    <input type="radio" name="cautraloi" class="cautraloi" id="b">
+                    <label id="b_cautraloi" for="b"></label>
+                </li>
+                <li id="cau_c">
+                    <input type="radio" name="cautraloi" class="cautraloi" id="c">
+                    <label id="c_cautraloi" for="c"></label>
+                </li>
+                <li id="cau_d">
+                    <input type="radio" name="cautraloi" class="cautraloi" id="d">
+                    <label id="d_cautraloi" for="d"></label>
+                </li>
+                <input id="caudung" type="hidden">
+                <input id="tongsocauhoi" type="hidden">
+            </ul>
+            <button id="submit"> cau tiep theo </button>
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
